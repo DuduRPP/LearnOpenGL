@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Project",
+            "type": "shell",
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "cmake -B build && cmake --build build"
+            },
+            "linux": {
+                "command": "cmake -B build && cmake --build build"
+            }
+        }
+    ]
+}
