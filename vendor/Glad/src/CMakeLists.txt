@@ -1,5 +1,5 @@
 # Add GLAD source file
-add_library(glad SHARED 
+add_library(glad STATIC 
     glad.c
 )
 
